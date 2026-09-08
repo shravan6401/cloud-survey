@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Cloud Computing Survey - Page 2</title>
+
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f1f3f4;
+    font-family: Arial, sans-serif;
+    color: #202124;
+}
+
+.container {
+    max-width: 720px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+
+/* Header */
+
+.header {
+    background: white;
+    border-radius: 10px;
+    border-top: 8px solid #673ab7;
+    padding: 30px;
+    box-shadow: 0 1px 4px #0002;
+}
+
+.header h1 {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+
+.header p {
+    color: #5f6368;
+    line-height: 1.6;
+}
+
+.required {
+    color: #d93025;
+    font-size: 13px;
+}
+
+
+/* Question */
+
+.question {
+    background: white;
+    margin-top: 15px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px #0002;
+}
+
+.question-title {
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+
+/* Options */
+
+.option {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.option label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.option input {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    accent-color: #673ab7;
+}
+
+
+/* Buttons */
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+button {
+    background: #673ab7;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #512da8;
+}
+
+.previous {
+    background: white;
+    color: #673ab7;
+    border: 1px solid #673ab7;
+}
+
+
+/* Success */
+
+.success {
+    display: none;
+    background: white;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.success h2 {
+    color: #673ab7;
+    font-weight: 500;
+}
+
+
+/* Mobile */
+
+@media(max-width:600px) {
+
+    .header,
+    .question {
+        padding: 22px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<!-- HEADER -->
+
+<div class="header">
+
+<h1>
+    Cloud Computing Adoption Survey
+</h1>
+
+<p>
+    Please answer all 20 questions based on your knowledge
+    or experience with cloud computing.
+</p>
+
+<p class="required">
+    * Indicates required question
+</p>
+
+<p>
+    Page 2 of 2
+</p>
+
+</div>
+
+
+<form id="surveyForm">
+
+
+<!-- QUESTION 1 -->
+
+<div class="question">
+
+<div class="question-title">
+1. How familiar are you with cloud computing?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label>
+<input type="radio" name="q1" required>
+Very familiar
+</label>
+</div>
+
+<div class="option">
+<label>
+<input type="radio" name="q1">
+Familiar
+</label>
+</div>
+
+<div class="option">
+<label>
+<input type="radio" name="q1">
+Somewhat familiar
+</label>
+</div>
+
+<div class="option">
+<label>
+<input type="radio" name="q1">
+Not familiar
+</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 2 -->
+
+<div class="question">
+
+<div class="question-title">
+2. Does your organization currently use cloud computing?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q2" required> Yes</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q2"> No</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q2"> Partially</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q2"> Planning to adopt</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 3 -->
+
+<div class="question">
+
+<div class="question-title">
+3. Which type of cloud deployment is mainly used?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q3" required> Public Cloud</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q3"> Private Cloud</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q3"> Hybrid Cloud</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q3"> I don't know</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 4 -->
+
+<div class="question">
+
+<div class="question-title">
+4. Which cloud service is used most frequently?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q4" required> Cloud Storage</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q4"> Cloud Database</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q4"> Cloud Software</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q4"> Cloud Backup</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 5 -->
+
+<div class="question">
+
+<div class="question-title">
+5. What is the main reason for adopting cloud computing?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q5" required> Cost reduction</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q5"> Easy access to data</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q5"> Data backup</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q5"> Better collaboration</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 6 -->
+
+<div class="question">
+
+<div class="question-title">
+6. How useful is cloud storage for your organization?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q6" required> Very useful</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q6"> Useful</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q6"> Somewhat useful</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q6"> Not useful</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 7 -->
+
+<div class="question">
+
+<div class="question-title">
+7. Does cloud computing improve access to information?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q7" required> Strongly agree</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q7"> Agree</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q7"> Neutral</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q7"> Disagree</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 8 -->
+
+<div class="question">
+
+<div class="question-title">
+8. How much can cloud computing reduce infrastructure costs?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q8" required> Significantly</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q8"> Moderately</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q8"> Slightly</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q8"> Not at all</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 9 -->
+
+<div class="question">
+
+<div class="question-title">
+9. How important is cloud backup for your organization?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q9" required> Very important</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q9"> Important</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q9"> Less important</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q9"> Not important</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 10 -->
+
+<div class="question">
+
+<div class="question-title">
+10. What is the biggest benefit of cloud computing?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q10" required> Accessibility</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q10"> Cost savings</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q10"> Scalability</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q10"> Data backup</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 11 -->
+
+<div class="question">
+
+<div class="question-title">
+11. What is the biggest challenge of cloud adoption?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q11" required> Data security</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q11"> Internet dependency</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q11"> Cost</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q11"> Lack of skills</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 12 -->
+
+<div class="question">
+
+<div class="question-title">
+12. How concerned are you about data security in the cloud?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q12" required> Very concerned</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q12"> Concerned</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q12"> Slightly concerned</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q12"> Not concerned</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 13 -->
+
+<div class="question">
+
+<div class="question-title">
+13. How reliable is your internet connection for cloud services?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q13" required> Very reliable</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q13"> Reliable</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q13"> Sometimes unreliable</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q13"> Unreliable</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 14 -->
+
+<div class="question">
+
+<div class="question-title">
+14. How satisfied are you with your current cloud services?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q14" required> Very satisfied</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q14"> Satisfied</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q14"> Neutral</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q14"> Dissatisfied</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 15 -->
+
+<div class="question">
+
+<div class="question-title">
+15. Does cloud computing improve collaboration?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q15" required> Strongly agree</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q15"> Agree</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q15"> Neutral</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q15"> Disagree</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 16 -->
+
+<div class="question">
+
+<div class="question-title">
+16. How easy is it for staff to learn cloud-based systems?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q16" required> Very easy</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q16"> Easy</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q16"> Difficult</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q16"> Very difficult</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 17 -->
+
+<div class="question">
+
+<div class="question-title">
+17. Does your organization provide cloud computing training?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q17" required> Regularly</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q17"> Occasionally</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q17"> Rarely</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q17"> Never</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 18 -->
+
+<div class="question">
+
+<div class="question-title">
+18. Would you recommend cloud computing to other organizations?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q18" required> Definitely</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q18"> Probably</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q18"> Not sure</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q18"> No</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 19 -->
+
+<div class="question">
+
+<div class="question-title">
+19. Does your organization plan to increase cloud adoption?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q19" required> Yes</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q19"> No</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q19"> Maybe</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q19"> Not decided</label>
+</div>
+
+</div>
+
+
+<!-- QUESTION 20 -->
+
+<div class="question">
+
+<div class="question-title">
+20. Do you think cloud computing will become essential in the future?
+<span class="required">*</span>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q20" required> Strongly agree</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q20"> Agree</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q20"> Neutral</label>
+</div>
+
+<div class="option">
+<label><input type="radio" name="q20"> Disagree</label>
+</div>
+
+</div>
+
+
+<!-- BUTTONS -->
+
+<div class="buttons">
+
+<button
+    type="button"
+    class="previous"
+    onclick="window.location.href='page1.html'">
+    Previous
+</button>
+
+<button type="submit">
+    Submit
+</button>
+
+</div>
+
+</form>
+
+
+<!-- SUCCESS MESSAGE -->
+
+<div class="success" id="success">
+
+<h2>
+    Response Submitted!
+</h2>
+
+<p>
+    Thank you for participating in the survey.
+</p>
+
+<p>
+    Your response has been recorded.
+</p>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+document.getElementById("surveyForm").addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    if (!this.checkValidity()) {
+
+        this.reportValidity();
+
+        return;
+
+    }
+
+    this.style.display = "none";
+
+    document.getElementById("success").style.display = "block";
+
+    localStorage.clear();
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+});
+
+</script>
+
+
+</body>
+</html>
